@@ -3,7 +3,7 @@ Red Academy - Project 4 - Inhabitent Website
 
 Ver 1.0.0
 
-Re-create the website : https://tent.academy.red/journal/
+Re-create the website : https://tent.academy.red/
 
 Things that I've learnt after finishing this project using Wordpress:
 
