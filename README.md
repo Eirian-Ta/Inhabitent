@@ -18,7 +18,7 @@ Things that I've learnt after finishing this project using Wordpress:
 Things that I would like to improve for this project:
 
 - DRYer code
-- Perfect all the pixels (margin, padding, indent...)
-- Make the website responsive to different screen-size
+- perfect all the pixels (margin, padding, indent...), font-size, font-weight
+- make the website responsive to different screen-size
 
 
