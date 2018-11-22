@@ -1,0 +1,60 @@
+.site-header {
+  background-color: hsla(0, 0%, 100%, 0.85);
+  border-bottom: 1px solid $color__solid-border;
+  padding: 0.5rem 0;
+  position: fixed;
+  transition: top 0.5s linear;
+  width: 100%;
+  z-index: 3;
+
+  .container {
+    max-width:1120px;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+    h1 {
+      background: url(http://localhost/Project4/wp-content/themes/inhabitent_theme/assets/images/logos/inhabitent-logo-tent.svg) no-repeat;
+      background-size: 50px 33px;
+      height: 33px;
+      margin: 0;
+      overflow: hidden;
+      text-indent: 100%;
+      white-space: nowrap;
+      width: 50px;
+    }
+  }
+}
+
+.reverse-header {
+  background-color: transparent;
+  border-bottom: 0;
+  position: absolute;
+  text-shadow: 1px 1px 2px $color__text-shadow;
+
+  .container h1 {
+    background: url(http://localhost/Project4/wp-content/themes/inhabitent_theme/assets/images/logos/inhabitent-logo-tent-white.svg)
+      no-repeat;
+    background-size: 50px 33px;
+  }
+
+  .main-navigation {
+    a {
+      color: $color__background-body;
+
+      &:hover {
+        color: $color__yellow-brand;
+      }
+    }
+    input[type=search] {
+      color: $color__background-body;
+    }
+
+    ::placeholder {
+      color:$color__yellow-brand;
+    }
+  }
+}

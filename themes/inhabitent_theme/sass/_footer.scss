@@ -1,0 +1,84 @@
+.site-footer {
+  background: url(http://localhost/Project4/wp-content/themes/inhabitent_theme/assets/images/dark-wood.png) center no-repeat;
+  background-size: cover;
+  color: $color__background-body;
+  /* margin-top: 4rem; */
+  padding-top:2rem;
+  clear: both;
+  
+  p {
+    margin-bottom: 0.5rem;
+    span {
+      font-weight: bold;
+    }
+  }
+  a {
+    color: $color__background-body;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .location {
+    display: none;
+  }
+
+  #archives-2 {
+    display: none;
+  }
+}
+
+.footer-blocks {
+  display: flex;
+  width: $max__width;
+  margin: 0 auto;
+
+  aside {
+    margin-right:5rem;
+    float:left;
+
+    h3 {
+      color: $color__orange-brand;
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .footer-block-item:first-child {
+    display: flex;
+  }
+
+  .footer-block-item:last-child {
+    padding-right: 0;
+    padding-top: 1rem;
+    text-align: right;
+    img {
+      max-width: 75%;
+    }
+  }
+}
+
+  
+
+.site-info {
+  font-family: $font__accent;
+  padding: 1.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+  
+.site-info  {
+    color: white;
+    margin-top: 38px;
+   text-transform: uppercase;
+   text-align: center;
+    
+}
